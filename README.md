@@ -12,6 +12,12 @@ This pipeline supports Continuous Delivery. Hence, it waits for the user's appro
 		}
 ```
 
+## Prerequisites
+
+1. A Linux worker node with Terraform installed.
+2. Git credentials configured on the Jenkins server.
+3. GitSCM plugin installed on the Jenkins server.
+
 ## Variables
 
 1. `<node_label>` -> Node label (the label provided to the Jenkins node while node configuration).
